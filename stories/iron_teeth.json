@@ -1,0 +1,105 @@
+{
+	"name": "The Iron Teeth",
+	"author": "ClearMadness",
+	"steps":
+	[
+		{
+			"method": "toc",
+			"url": "http://www.ironteethserial.com/table-of-contents/",
+			"toc": "#post-separate ul > li > a:nth-child(1)",
+			"ignore" : [
+				"patreon.com",
+				"/journal-",
+				"the-coming-of-spring",
+				"stranger-from-a-strange-land",
+				"rise-doctor-ooze"
+			]
+		},
+		{
+			"method": "toc_next",
+			"title": ".post-title",
+			"body": ".post_content",
+			"section": ["The Iron Teeth", "Book one", "The Road North"],
+			"last": "http://www.ironteethserial.com/2015/11/15/the-road-north-1-7/"
+		},
+		{
+			"up": 1,
+			"section": "Honor Among Thieves",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/honor-among-thieves-2-10/"
+		},
+		{
+			"up": 1,
+			"section": "Written in Blood",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/written-in-blood-3-10/"
+		},
+		{
+			"up": 1,
+			"section": "Playing With Fire",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/playing-fire-7/"
+		},
+		{
+			"up": 2,
+			"section": ["Book Two", "Along Twisted Paths"],
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/along-twisted-paths-4-8/"
+		},
+		{
+			"up": 1,
+			"section": "Den of Beasts",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/den-beasts-5-9/"
+		},
+		{
+			"up": 1,
+			"section": "A Tradesman's Tools",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/tradesmans-tools-6-10/"
+		},
+		{
+			"up": 1,
+			"section": "Queen of Swords",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/queen-swords-7-17/"
+		},
+		{
+			"up": 1,
+			"section": "Epilogue",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/story-interlude/the-flow-of-shadows/"
+		},
+		{
+			"up": 2,
+			"section": ["Book Three", "Rolling the Dice"],
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/rolling-dice-8/"
+		},
+		{
+			"up": 1,
+			"section": "Comes the Wolf",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/comes-wolf-9/"
+		},
+		{
+			"up": 1,
+			"section": "Into the Green",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/into-the-green-10/"
+		},
+		{
+			"up": 1,
+			"section": "Hearts and Homes",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/hearts-homes-10/"
+		},
+		{
+			"up": 1,
+			"section": "It Echoes Onward",
+			"last": "http://www.ironteethserial.com/dark-fantasy-story/online-story/echoes-onward-10/"
+		},
+		{
+			"up": 1,
+			"section": "Out of Darkness"
+		},
+		{
+			"method": "url",
+			"up": 3,
+			"section": "Journal Entries",
+			"url": [
+				"http://www.ironteethserial.com/dark-fantasy-story/journal-goblins-hobgoblins/",
+				"http://www.ironteethserial.com/online-story-note/journal-entry-harpies/",
+				"http://www.ironteethserial.com/online-story-note/journal-entry-crystals-mutations/"
+			]
+		}
+	]
+}

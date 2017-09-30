@@ -1,0 +1,82 @@
+{
+	"name": "The Zombie Knight Saga",
+	"author": "George M. Frost",
+	"steps":
+	[
+		{
+			"method": "url",
+			"url": "http://thezombieknight.blogspot.com/2013/04/page-1.html",
+			"title": ".post-title",
+			"body": ".post-body",
+			"remove": [
+				"span[style^=\"font-size: x-small\"]"
+			],
+			"section": ["Vol. 1 - Elegy for an Immortal", "First Oath -- Blood and Iron"]
+		},
+		{
+			"method": "next",
+			"prev_next": ".blog-pager-newer-link",
+			"last": "http://thezombieknight.blogspot.com/2013/07/page-117.html"
+		},
+		{
+			"up": 1,
+			"section": "Second Oath -- Queen and Country",
+			"last": "http://thezombieknight.blogspot.com/2013/08/page-206.html"
+		},
+		{
+			"up": 1,
+			"section": "Third Oath -- Family and Honor",
+			"last": "http://thezombieknight.blogspot.com/2013/10/page-289.html"
+		},
+		{
+			"up": 2,
+			"section": ["Vol. 2 - Blood for the Crown", "Fourth Oath -- Shape and Power"],
+			"last": "http://thezombieknight.blogspot.com/2013/11/page-378.html"
+		},
+		{
+			"up": 1,
+			"section": "Fifth Oath -- Sword and Shield",
+			"last": "http://thezombieknight.blogspot.com/2014/01/page-469.html"
+		},
+		{
+			"up": 1,
+			"section": "Sixth Oath -- Soul and Soldier",
+			"last": "http://thezombieknight.blogspot.com/2014/03/page-586.html"
+		},
+		{
+			"up": 2,
+			"section": ["Vol. 3 - Reigning Warriors", "Seventh Oath -- Lord and Castle"],
+			"last": "http://thezombieknight.blogspot.com/2014/05/page-707.html"
+		},
+		{
+			"up": 1,
+			"section": "Eighth Oath -- Rand and Sand",
+			"last": "http://thezombieknight.blogspot.com/2014/08/page-795.html"
+		},
+		{
+			"up": 1,
+			"section": "Ninth Oath -- Mud and War",
+			"last": "http://thezombieknight.blogspot.com/2014/12/page-928.html"
+		},
+		{
+			"up": 2,
+			"section": ["Vol. 4 - Encounter with Supremity", "Tenth Oath -- Rise and Fall"],
+			"last": "http://thezombieknight.blogspot.com/2015/03/page-1009.html"
+		},
+		{
+			"up": 1,
+			"section": "Eleventh Oath -- Death and Demon",
+			"last": "http://thezombieknight.blogspot.com/2015/12/page-1130.html"
+		},
+		{
+			"up": 1,
+			"section": "Twelfth Oath -- Speak and Listen",
+			"last": "http://thezombieknight.blogspot.com/2017/01/page-1268.html"
+		},
+		{
+			"up": 2,
+			"section": ["Vol 5 - Ballad for Myths and Monsters", "Thirteenth Oath -- Hunt and Beast"]
+		}
+		
+	]
+}

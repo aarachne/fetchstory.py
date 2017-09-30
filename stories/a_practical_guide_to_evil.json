@@ -1,0 +1,33 @@
+{
+	"name": "A Practical Guide to Evil",
+	"author": "ErraticErrata",
+	"style": "body > p:nth-child(2) {margin-bottom:1em} body#ch001Page > p:nth-child(2) {margin-bottom:0} body#ch001Page > p:nth-child(6) {margin-bottom:1em}",
+	"steps":
+	[
+		{
+			"method": "url",
+			"url": "https://practicalguidetoevil.wordpress.com/2015/03/25/prologue/",
+			"title": ".entry-title",
+			"body": ".entry-content",
+			"remove": [
+				"#jp-post-flair",
+				".wpcnt"
+			],
+			"section": "Book I"
+		},
+		{
+			"method": "next",
+			"prev_next": ".nav-next > a:nth-child(1)",
+			"last": "https://practicalguidetoevil.wordpress.com/2015/10/14/epilogue/"
+		},
+		{
+			"up": 1,
+			"section": "Book II",
+			"last": "https://practicalguidetoevil.wordpress.com/2017/01/04/epilogue-2/"
+		},
+		{
+			"up": 1,
+			"section": "Book III"
+		}
+	]
+}

@@ -1,0 +1,171 @@
+{
+	"name": "Tales of MU",
+	"author": "Alexandra Erin",
+	"steps":
+	[
+		{
+			"method": "url",
+			"url": "http://www.talesofmu.com/book01/1",
+			"title": ".date > h2:nth-child(1)",
+			"body": ".entry",
+			"toc": "div.post > div.date > h2 > a[rel=\"bookmark\"]",
+			"prev_next": "div.navigation a[rel=\"next\"]",
+			"remove": [
+				".div[id^=\"pw_adbox\"]"
+			],
+			"section": ["Volume 1", "Book 01: Welcome Weekend"]
+		},
+		{
+			"method": "next",
+			"remove": [
+				".div[id^=\"pw_adbox\"]",
+				".entry > center:nth-last-of-type(1)"
+			],
+			"last": "http://www.talesofmu.com/book01/22"
+		},
+		{
+			"up": 1,
+			"section": "Book 02: Love In The Time Of Magic",
+			"last": "http://www.talesofmu.com/other/the-sufferings-of-sooni"
+		},
+		{
+			"up": 1,
+			"section": "Book 03: Virginal",
+			"last": "http://www.talesofmu.com/other/bonus-story-the-edge-of-seventeen"
+		},
+		{
+			"up": 1,
+			"section": "Book 04: The Body Politick",
+			"last": "http://www.talesofmu.com/book04/115"
+		},
+		{
+			"up": 1,
+			"section": "Book 05: The Weekend Shift",
+			"last": "http://www.talesofmu.com/book05/151"
+		},
+		{
+			"up": 1,
+			"section": "Book 06: A Period of Conflict",
+			"last": "http://www.talesofmu.com/book06/176"
+		},
+		{
+			"up": 1,
+			"section": "Book 07: Pitched Battles",
+			"last": "http://www.talesofmu.com/other/bonus-story-fresh"
+		},
+		{
+			"up": 1,
+			"section": "Book 8",
+			"last": "http://www.talesofmu.com/book-8/230"
+		},
+		{
+			"up": 1,
+			"section": "Book 9",
+			"last": "http://www.talesofmu.com/other/opening-skirmishes"
+		},
+		{
+			"up": 1,
+			"section": "Book 10",
+			"last": "http://www.talesofmu.com/other/down-to-the-river-2"
+		},
+		{
+			"up": 1,
+			"section": "Book 11",
+			"last": "http://www.talesofmu.com/book-11/317"
+		},
+		{
+			"up": 1,
+			"section": "Book 12",
+			"last": "http://www.talesofmu.com/other/in-the-beginning"
+		},
+		{
+			"up": 1,
+			"section": "Book 13",
+			"last": "http://www.talesofmu.com/book-13/371"
+		},
+		{
+			"up": 1,
+			"section": "Book 14",
+			"last": "http://www.talesofmu.com/book-14/414"
+		},
+		{
+			"up": 1,
+			"section": "Book 15",
+			"last": "http://www.talesofmu.com/book-15/438"
+		},
+		{
+			"up": 1,
+			"section": "Book 16",
+			"last": "http://www.talesofmu.com/book0x/473"
+		},
+		{
+			"up": 1,
+			"section": "Book 17",
+			"last": "http://www.talesofmu.com/book0x/477"
+		},
+		{
+			"up": 2,
+			"section": "Extra chapters",
+			"last": "http://www.talesofmu.com/other/her-imperial-majesty"
+		},
+		{
+			"method": "url",
+			"url": "http://www.talesofmu.com/volume-2/chapter-1",
+			"up": 1,
+			"section": ["Volume 2", "Book 1: Sophomore Effort"]
+		},
+		{
+			"method": "next",
+			"last": "http://www.talesofmu.com/volume-2/chapter-20"
+		},
+		{
+			"up": 1,
+			"section": "Book 2: The Trouble With Twyla",
+			"last": "http://www.talesofmu.com/other/how-things-work-dance-party-edition"
+		},
+		{
+			"up": 1,
+			"section": "Book 3: Figments & Fragments",
+			"last": "http://www.talesofmu.com/2book03/chapter-93"
+		},
+		{
+			"up": 1,
+			"section": "Book 4: The Reinvention of Mackenzie Blaise",
+			"last": "http://www.talesofmu.com/other/epistolary-finale"
+		},
+		{
+			"up": 1,
+			"section": "Book 5: Nasty Disturbing Uncomfortable Things",
+			"last": "http://www.talesofmu.com/2book05/chapter-182"
+		},
+		{
+			"method": "url",
+			"up": 1,
+			"section": "Book 6: Career Counseling",
+			"url": "http://www.talesofmu.com/professor-stone/chapter-183"
+		},
+		{
+			"method": "next",
+			"last": "http://www.talesofmu.com/2book06/chapter-217"
+		},
+		{
+			"up": 1,
+			"section": "Book 7: Courtly Manners",
+			"last": "http://www.talesofmu.com/volume-2/chapter-258"
+		},
+		{
+			"up": 1,
+			"section": "Book 8: Elven Holiday",
+			"last": "http://www.talesofmu.com/volume-2/chapter-294"
+		},
+		{
+			"up": 1,
+			"section": "Book 9: Who Is Mackenzie Blaise?",
+			"last": "http://www.talesofmu.com/volume-2/chapter-310"
+		},
+		{
+			"up": 1,
+			"section": "Book 10: Lucky Thing"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"name": "Applied Cultural Anthropology",
+	"author": "jacobk",
+	"steps":
+	[
+		{
+			"method": "url",
+			"url": "https://www.fanfiction.net/s/9238861/1/Applied-Cultural-Anthropology-or",
+			"body": ".storytext"
+		},
+		{
+			"method": "next_url",
+			"url_gen": "set URL [split \"$URL\" \"/\"]; lset URL 5 [expr [lindex $URL 5] + 1]; set URL [join $URL \"/\"]; return $URL"
+		}
+	]
+}

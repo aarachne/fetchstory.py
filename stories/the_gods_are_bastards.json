@@ -1,0 +1,170 @@
+{
+	"name": "The Gods are Bastards",
+	"author": "D. D. Webb",
+	"steps":
+	[
+		{
+			"method": "toc",
+			"url": "https://tiraas.wordpress.com/table-of-contents/",
+			"title": ".entry-title",
+			"body": ".entry-content",
+			"toc": ".entry-content > ul > li a",
+			"remove": [
+				".entry-content a[href^=\"https://tiraas.wordpress.com\"]",
+				".wpcnt",
+				"#jp-post-flair"
+			],
+			"section": "Volume 1",
+			"ignore": [
+				"/bonus-"
+			]
+		},
+		{
+			"method": "toc_next",
+			"last": "https://tiraas.wordpress.com/2014/08/20/book-1-prologue/"
+		},
+		{
+			"last": "https://practicalguidetoevil.wordpress.com/2015/10/14/epilogue/",
+			"section": "Book One - What Fresh Hell",
+			"last": "https://tiraas.wordpress.com/2014/10/08/1-21/"
+		},
+		{
+			"up": 1,
+			"section": "Book Two - Spacious Skies, Amber Waves",
+			"last": "https://tiraas.wordpress.com/2014/11/28/2-22/"
+		},
+		{
+			"up": 1,
+			"section": "Book Three - A Fistful of Blood",
+			"last": "https://tiraas.wordpress.com/2014/12/22/3-10/"
+		},
+		{
+			"up": 1,
+			"section": "Book Four - This Town Ain't Big Enough",
+			"last": "https://tiraas.wordpress.com/2015/02/11/4-22/"
+		},
+		{
+			"up": 1,
+			"last": "https://tiraas.wordpress.com/2015/02/13/epilogue-vol-1/"
+		},
+		{
+			"method": "url",
+			"url": [
+				"https://tiraas.wordpress.com/2015/02/14/bonus-1-captains-orders/",
+				"https://tiraas.wordpress.com/2015/02/16/bonus-2-all-those-who-serve/",
+				"https://tiraas.wordpress.com/2015/02/18/bonus-3-hero/",
+				"https://tiraas.wordpress.com/2015/02/23/bonus-4-heart-of-the-wild/"
+			]
+		},
+		{
+			"method": "toc_next",
+			"up": 1,
+			"section": "Volume 2",
+			"last": "https://tiraas.wordpress.com/2015/02/24/volume-2-prologue/"
+		},
+		{
+			"section": "Book Five - The Streets Where You Live",
+			"last": "https://tiraas.wordpress.com/2015/05/06/5-31/"
+		},
+		{
+			"method": "url",
+			"url": [
+				"https://tiraas.wordpress.com/2015/05/08/bonus-5-of-which-reason-knows-nothing/",
+				"https://tiraas.wordpress.com/2015/05/11/bonus-6-a-light-in-dark-places/",
+				"https://tiraas.wordpress.com/2015/05/13/bonus-7-songbird/",
+				"https://tiraas.wordpress.com/2015/05/15/bonus-8-on-being-a-man-part-1/",
+				"https://tiraas.wordpress.com/2015/05/18/bonus-9-on-being-a-man-part-2/"
+			]
+		},
+		{
+			"method": "toc_next",
+			"up": 1,
+			"section": "Book Six - Crawling Chaos",
+			"last": "https://tiraas.wordpress.com/2015/08/02/6-34/"
+		},
+		{
+			"up": 1,
+			"section": "Book Seven - Hell Hath No Fury",
+			"last": "https://tiraas.wordpress.com/2015/08/26/7-13/"
+		},
+		{
+			"up": 1,
+			"last": "https://tiraas.wordpress.com/2015/08/28/epilogue-volume-2/"
+		},
+		{
+			"method": "url",
+			"url": [
+			"https://tiraas.wordpress.com/2015/08/31/bonus-10-along-came-a-spider-part-4/",
+			"https://tiraas.wordpress.com/2015/09/04/bonus-11-along-came-a-spider-part-3/",
+			"https://tiraas.wordpress.com/2015/09/07/bonus-12-along-came-a-spider-part-2/",
+			"https://tiraas.wordpress.com/2015/09/11/bonus-13-along-came-a-spider-part-1/"
+			]
+		},
+		{
+			"method": "toc_next",
+			"up": 1,
+			"section": "Volume 3",
+			"last": "https://tiraas.wordpress.com/2015/09/14/prologue-volume-3/"
+		},
+		{
+			"section": "Book Eight  - The Mind and the Sword",
+			"last": "https://tiraas.wordpress.com/2015/11/20/8-25-2/"
+		},
+		{
+			"up": 1,
+			"section": "Book Nine - Draw",
+			"last": "https://tiraas.wordpress.com/2016/02/26/9-38/"
+		},
+		{
+			"method": "url",
+			"url": "https://tiraas.wordpress.com/2016/02/27/bonus-14-judgment-and-justice-part-1/"
+		},
+		{
+			"method": "toc_next",
+			"up": 1,
+			"section": "Book Ten - And Justice for All",
+			"last": "https://tiraas.wordpress.com/2016/07/13/10-52/"
+		},
+		{
+			"method": "toc_next",
+			"up": 1,
+			"last": "https://tiraas.wordpress.com/2016/07/15/epilogue-volume-3/"
+		},
+		{
+			"method": "url",
+			"url": [
+				"https://tiraas.wordpress.com/2016/07/19/bonus-15-judgment-and-justice-part-2/",
+				"https://tiraas.wordpress.com/2016/07/25/bonus-16-justice-and-judgment-part-3/",
+				"https://tiraas.wordpress.com/2016/07/27/bonus-17-judgment-and-justice-part-4/"
+			]
+		},
+		{
+			"method": "toc_next",
+			"section": "Volume 4",
+			"last": "https://tiraas.wordpress.com/2016/07/29/prologue-volume-4/"
+		},
+		{
+			"section": "Book Eleven - If You Can Make It Here",
+			"last": "https://tiraas.wordpress.com/2016/11/16/11-42/"
+		},
+		{
+			"up": 1,
+			"section": "Book Twelve - Sleeper",
+			"last": "https://tiraas.wordpress.com/2017/07/17/12-64/"
+		},
+		{
+			"method": "url",
+			"url": [
+				"https://tiraas.wordpress.com/2017/07/24/bonus-18-heavy-is-the-head-part-1/",
+				"https://tiraas.wordpress.com/2017/07/28/bonus-19-heavy-is-the-head-part-2/",
+				"https://tiraas.wordpress.com/2017/07/31/bonus-20-heavy-is-the-head-part-3/",
+				"https://tiraas.wordpress.com/2017/08/02/bonus-21-heavy-is-the-head-part-4/"
+			],
+			"up": 1
+		},
+		{
+			"method": "toc_next",
+			"section": "Book Thirteen - From Sea to Stormy Sea"
+		}
+	]
+}

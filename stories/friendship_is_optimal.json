@@ -1,0 +1,18 @@
+{
+	"name": "Friendship is Optimal",
+	"author": "iceman",
+	"steps":
+	[
+		{
+			"method": "url",
+			"url": "http://www.fimfiction.net/story/62074/1/friendship-is-optimal/prologue-equestria-online",
+			"title": "#chapter_title",
+			"body": "#chapter-body > .bbcode"
+		},
+		{
+			"method": "next",
+			"prev_next": ".chapter-selector > .button-icon-only",
+			"last": "http://www.fimfiction.net/story/62074/13/friendship-is-optimal/authors-afterword"
+		}
+	]
+}

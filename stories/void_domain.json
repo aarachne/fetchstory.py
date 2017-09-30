@@ -1,0 +1,26 @@
+{
+	"name": "Void Domain",
+	"author": "TowerCurator",
+	"_comment": "The book name is in each title, so I didn't bother to break it into sections",
+	"steps":
+	[
+		{
+			"method": "toc",
+			"url": "https://towercurator.wordpress.com/index/",
+			"title": "h1",
+			"body": ".entry",
+			"toc": ".entry > p[style^=\"padding-left:30px\"] > a",
+			"remove": [
+				".entry > p:last-of-type[style^=\"text-align:center\"]",
+				".entry > p:first-of-type[style^=\"text-align:center\"]",
+				"#jp-post-flair"
+			],
+			"ignore": [
+				"/eclipse-thoughts"
+			]
+		},
+		{
+			"method": "toc_next"
+		}
+	]
+}

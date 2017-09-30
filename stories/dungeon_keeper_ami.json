@@ -1,0 +1,18 @@
+{
+	"name": "Dungeon Keeper Ami",
+	"author": "Pusakuronu",
+	"steps":
+	[
+		{
+			"method": "url",
+			"url": "https://forums.sufficientvelocity.com/threads/dungeon-keeper-ami-sailor-moon-dungeon-keeper-story-only-thread.30066/",
+			"body": "li[data-author=\"Pusakuronu\"] > div:nth-child(3) > div:nth-child(1) > article:nth-child(1)",
+			"multiple": 1
+		},
+		{
+			"method": "next",
+			"prev_next": "div.PageNav:nth-child(2) > nav:nth-child(2) > a:last-child",
+			"continue_on_endless": 1
+		}
+	]
+}
